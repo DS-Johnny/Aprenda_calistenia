@@ -24,17 +24,17 @@ with basico:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Treino de Flexão")
-        st.image("images/treino-flexao-calistenia-iniciante-basico.png")
+        st.image("images/basico/treino-flexao-calistenia-iniciante-basico.png")
         st.markdown("---")
         st.write("Treino de Core e Pernas")
-        st.image("images/treino-core-pernas-calistenia-iniciante-basico.png")
+        st.image("images/basico/treino-core-pernas-calistenia-iniciante-basico.png")
         
 
     with col2:
         st.write("Treino de Barra")
-        st.image("images/treino-barra-calistenia-iniciante-basico.png")
+        st.image("images/basico/treino-barra-calistenia-iniciante-basico.png")
         st.markdown("---")
         st.write("Grade")
-        st.image("images/grade-treinos-calistenia-iniciante-basico.png")
+        st.image("images/basico/grade-treinos-calistenia-iniciante-basico.png")
 
     st.page_link("pages/2_Treino_Basico.py", label="Clique aqui para ir para o treino")
