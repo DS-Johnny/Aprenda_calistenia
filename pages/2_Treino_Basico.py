@@ -2,10 +2,10 @@ import streamlit as st
 
 
 st.sidebar.title("Treino Básico")
-st.sidebar.image("images/grade-treinos-calistenia-iniciante-basico.png")
+st.sidebar.image("images/basico/grade-treinos-calistenia-iniciante-basico.png")
 st.title("Treino Básico")
 
-tab1, tab2, tab3 = st.tabs(["Treino de Flexão", "Treino de Barra",  "Core e pernas"])
+tab1, tab2, tab3 = st.tabs(["Treino de Flexão", "Treino de Barra",  "Core e Pernas"])
 
 
 with tab1:
@@ -26,7 +26,7 @@ Existem alguns cuidados que você deve tomar para garantir a eficiência dos exe
     col1, col2 = st.columns(2)
     with col1:
         st.write("Knee push up")
-        st.image("images/knee_push_up.png", width=240)
+        st.image("images/basico/knee_push_up.png", width=240)
 
         
     
@@ -39,7 +39,7 @@ Existem alguns cuidados que você deve tomar para garantir a eficiência dos exe
     col1, col2 = st.columns(2)
     with col1:
         st.write("Incline push up")
-        st.image("images/incline_push_up.png", width=240)
+        st.image("images/basico/incline_push_up.png", width=240)
 
         
     
@@ -52,7 +52,7 @@ Existem alguns cuidados que você deve tomar para garantir a eficiência dos exe
     col1, col2 = st.columns(2)
     with col1:
         st.write("Push up hold")
-        st.image("images/push_up_hold.png", width=240)
+        st.image("images/basico/push_up_hold.png", width=240)
 
         
     
@@ -65,7 +65,7 @@ Existem alguns cuidados que você deve tomar para garantir a eficiência dos exe
     col1, col2 = st.columns(2)
     with col1:
         st.write("Decline push up hold")
-        st.image("images/decline_push_up_hold.png", width=240)
+        st.image("images/basico/decline_push_up_hold.png", width=240)
 
         
     
@@ -78,7 +78,7 @@ Existem alguns cuidados que você deve tomar para garantir a eficiência dos exe
     col1, col2 = st.columns(2)
     with col1:
         st.write("Dips hold")
-        st.image("images/dips_hold.png", width=240)
+        st.image("images/basico/dips_hold.png", width=240)
 
         
     
@@ -109,7 +109,7 @@ Alguns cuidados que devem ser tomados são:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Negative chin up")
-        st.image("images/negative_chin_up.png", width=240)
+        st.image("images/basico/negative_chin_up.png", width=240)
 
     with col2:
         st.write("Video")
@@ -120,7 +120,7 @@ Alguns cuidados que devem ser tomados são:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Chin up hold")
-        st.image("images/chin_up_hold.png", width=240)
+        st.image("images/basico/chin_up_hold.png", width=240)
 
     with col2:
         st.write("Video")
@@ -131,7 +131,7 @@ Alguns cuidados que devem ser tomados são:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Scapula pull up")
-        st.image("images/scapula_pull_up.png", width=240)
+        st.image("images/basico/scapula_pull_up.png", width=240)
 
     with col2:
         st.write("Video")
@@ -142,7 +142,7 @@ Alguns cuidados que devem ser tomados são:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Pull up hold")
-        st.image("images/pull_up_hold.png", width=240)
+        st.image("images/basico/pull_up_hold.png", width=240)
 
     with col2:
         st.write("Video")
@@ -154,7 +154,7 @@ Alguns cuidados que devem ser tomados são:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Australian pull up")
-        st.image("images/australian_pull_up.png", width=240)
+        st.image("images/basico/australian_pull_up.png", width=240)
 
     with col2:
         st.write("Video")
@@ -165,7 +165,7 @@ Alguns cuidados que devem ser tomados são:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Incline chin up")
-        st.image("images/incline_chin_up.png", width=240)
+        st.image("images/basico/incline_chin_up.png", width=240)
 
     with col2:
         st.write("Video")
@@ -191,7 +191,7 @@ Para que o treino seja eficiente e seguro, tome os seguintes cuidados:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Squat")
-        st.image("images/squat.png", width=240)
+        st.image("images/basico/squat.png", width=240)
     
     with col2:
         st.write("Video")
@@ -202,7 +202,7 @@ Para que o treino seja eficiente e seguro, tome os seguintes cuidados:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Hamstring levers")
-        st.image("images/hamstring_levers.png", width=240)
+        st.image("images/basico/hamstring_levers.png", width=240)
 
     with col2:
         st.write("Video")
@@ -213,7 +213,7 @@ Para que o treino seja eficiente e seguro, tome os seguintes cuidados:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Calf raises")
-        st.image("images/calf_raises.png", width=240)
+        st.image("images/basico/calf_raises.png", width=240)
     
     with col2:
         st.write("Video")
@@ -224,7 +224,7 @@ Para que o treino seja eficiente e seguro, tome os seguintes cuidados:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Lying leg raises")
-        st.image("images/lying_leg_raises.png", width=240)
+        st.image("images/basico/lying_leg_raises.png", width=240)
 
     with col2:
         st.write("Video")
@@ -235,7 +235,7 @@ Para que o treino seja eficiente e seguro, tome os seguintes cuidados:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Legs hold")
-        st.image("images/legs_hold.png", width=240)
+        st.image("images/basico/legs_hold.png", width=240)
 
     with col2:
         st.write("Video")
@@ -246,7 +246,7 @@ Para que o treino seja eficiente e seguro, tome os seguintes cuidados:
     col1, col2 = st.columns(2)
     with col1:
         st.write("Plank")
-        st.image("images/plank.png", width=240)
+        st.image("images/basico/plank.png", width=240)
 
     with col2:
         st.write("Video")
