@@ -38,3 +38,23 @@ with basico:
         st.image("images/basico/grade-treinos-calistenia-iniciante-basico.png")
 
     st.page_link("pages/2_Treino_Basico.py", label="Clique aqui para ir para o treino")
+
+with iniciante:
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write("Treino de Flexão")
+        st.image("images/iniciante/treino-flexao-calistenia-iniciante.png")
+        st.markdown("---")
+        st.write("Treino de Core e Pernas")
+        st.image("images/iniciante/treino-abs-core-pernas-calistenia-iniciante.png")
+        
+
+    with col2:
+        st.write("Treino de Barra")
+        st.image("images/iniciante/treino-barra-calistenia-iniciante.png")
+        st.markdown("---")
+        st.write("Grade")
+        st.image("images/iniciante/grade-treinos-calistenia-iniciante.png")
+
+    st.page_link("pages/3_Treino_Iniciante.py", label="Clique aqui para ir para o treino")

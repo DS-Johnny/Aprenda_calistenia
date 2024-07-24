@@ -32,7 +32,7 @@ Para que o treino seja eficiente, aí vão algumas recomendações:
     
     with col2:
         st.write("Video")
-        #st.video("https://www.youtube.com/watch?v=jWxvty2KROs")
+        st.video("https://www.youtube.com/watch?v=R08gYyypGto")
 
     st.markdown("---")
 
@@ -45,7 +45,7 @@ Para que o treino seja eficiente, aí vão algumas recomendações:
     
     with col2:
         st.write("Video")
-        #st.video("https://www.youtube.com/watch?v=3WUUeM07i_Q")
+        st.video("https://www.youtube.com/watch?v=jWxvty2KROs")
 
     st.markdown("---")
 
@@ -58,7 +58,8 @@ Para que o treino seja eficiente, aí vão algumas recomendações:
     
     with col2:
         st.write("Video")
-        #st.video("https://www.youtube.com/watch?v=16-WWEQNiK0")
+        st.video("https://www.youtube.com/watch?v=yvAzWxRsnqU&pp=ygUUaG93IHRvIGRvIGJlbmNoIGRpcHM%3D")
+        
 
     st.markdown("---")
 
